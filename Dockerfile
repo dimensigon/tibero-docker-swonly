@@ -2,8 +2,7 @@
 #Requirements on host(Linux): sysctl -w net.ipv4.ip_forward=1
 #Check "Testing Tibero on your own" Blog post for sysctl config and limits.
 
-#docker build --tag tibero:dimensigon .
-#docker run -h dummy -it tibero:dimensigon
+#docker run -h dummy -it dimensigon/tibero
 
 FROM centos:7
 
