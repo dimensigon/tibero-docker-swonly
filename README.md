@@ -3,6 +3,18 @@ Docker Image - Tibero Software - No Database Created.
 
 ![Tibero logo](https://www.dimensigon.com/wp-content/uploads/2020/04/Logo-DB-Standard300-Tibero.png)
 
+### Container Description
+
+This container holds Tibero Software for testing. No Database is created.
+
+If you wish to create a default database, use [Tibero Ready-to-Go Container](https://hub.docker.com/repository/docker/dimensigon/tibero).
+
+If you wish to create your own database, this is your container.
+
+You will need to execute as root the following statement before starting with the DB Creation.
+tctl check $TB_HOME
+
+
 ### Description
 
 Tibero Database is a RDBMS database that has a worldwide growing position as well in Europe. In Asia and especially in South Korea where it has a dominant market share. It has been promoted by the South Korean Government to get a safer data engine against cyberattacks and to be technology independent.
